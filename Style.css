@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+div.TodoBox {
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    height: auto;
+    width: 294px;
+    margin-top: 15%;
+    border-radius: 8px;
+    height: fit-content;
+}
+h1 {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+    background-color: #D2D3D2;
+    padding: 9px;
+    border: 1px solid grey;
+    padding-inline-end: 18px;
+}
+button {
+    border-radius: 1px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+ul {
+    padding: 0px;
+    margin: auto;
+}
+li {
+    list-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.348);
+    padding: 10px;
+}
+li.Active {
+    text-decoration: none;
+    color: rgb(206, 5, 5);
+}
